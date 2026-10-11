@@ -7,6 +7,12 @@ rows back into the original structure. Node has `flat`, Python has
 of a library import, for piping nested JSON through `grep`/`sort`/`awk`
 or diffing two configs line-by-line without a JSON-aware diff tool.
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
